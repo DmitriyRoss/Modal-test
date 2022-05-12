@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h4 class="heading">Введите ваши данные:</h4>
+        <button
+          class="theme-switcher"
+          onclick="switching(themeBtn, thanks)"
+        ></button>
+      </div>
+
+      <form class="form">
+        <input class="input" id="name" placeholder="ФИО" />
+        <input class="input" id="group" placeholder="Группа" />
+
+        <button
+          type="button"
+          onclick="
+      func();
+     
+     
+      
+      "
+          class="button"
+        >
+          Отправить данные
+        </button>
+      </form>
+      <p id="thanks" class="thanks"></p>
+      <p class="name-holder"></p>
+      <p class="validator"></p>
+      <button type="button" class="button testing" onclick=" modalTest()">
+        Начать тестирование!
+      </button>
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>

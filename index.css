@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'San Francisco Text Light';
+
+  src: url('SFUIText-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'San Francisco Text Light';
+  font-weight: 300;
+  font-style: italic;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0.5px solid gray;
+}
+.input:focus {
+  outline: 0.5px solid blue;
+}
+.button {
+  padding: 0.8em;
+  background-color: hsl(206deg 100% 52%);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: hsl(0deg 0% 100%);
+  outline: none;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1, 15;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s;
+}
+.button:hover {
+  background-color: hsl(206deg 100% 40%);
+}
+.testing {
+  background-color: hsl(206deg 100% 40%);
+  display: none;
+}
+.testing:hover {
+  background-color: hsl(206deg 100% 52%);
+}
+.block {
+  display: block;
+}
+.input-color-green {
+  border-color: green;
+}
+.input-color-red {
+  border-color: red;
+}
+.input-color-black {
+  border-color: black;
+}
+
+.dark-theme {
+  background-color: #212121;
+  transition: background-color 0.4s;
+}
+.white-theme {
+  transition: background-color 0.4s;
+}
+.color-white {
+  color: white;
+}
+.white-theme-btn {
+  border-color: white;
+}
+.theme-switcher {
+  float: right;
+  background-color: #212121;
+  color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+}
